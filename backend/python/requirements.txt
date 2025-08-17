@@ -1,0 +1,14 @@
+# Environment variable loader
+python-dotenv>=1.0.0
+
+# Modern and legacy Google Generative AI SDK
+google-generativeai>=0.8.5
+
+# Optional legacy Palm API (google.ai.generativelanguage)
+google-ai-generativelanguage>=0.1.0
+
+# For system encoding handling (built-in modules, no extra package needed)
+# sys and os are standard libraries, so no need to install
+
+# Optional: ensure compatibility with UTF-8 handling
+# No extra package needed, using Python 3.10+ recommended

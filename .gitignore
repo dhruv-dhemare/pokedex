@@ -1,0 +1,51 @@
+# =====================
+# Frontend (Node / React / Vite)
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# =====================
+# Backend Python
+# =====================
+backend/python/__pycache__/
+backend/python/*.py[cod]
+backend/python/*$py.class
+backend/venv/
+backend/python/env/
+backend/python/.venv/
+backend/python/*.log
+backend/python/*.db
+backend/python/*.sqlite3
+backend/python/.env
+backend/node_modules/
+
+# Requirements file should be tracked
+# backend/requirements.txt
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Coverage / Misc
+# =====================
+coverage/
+htmlcov/
+pip-log.txt
+pip-delete-this-directory.txt
